@@ -1,0 +1,36 @@
+main {
+  header {
+    background-color: gray;
+    color: #fafafa;
+    padding: 1em;
+  }
+
+  section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+
+    .user-card {
+      margin-bottom: 2em;
+      max-width: 200px;
+      width: 100%;
+
+      .mat-card-content {
+        align-self: center;
+        display: flex;
+        justify-content: center;
+      }
+
+      .profile-pic {
+        height: 128px;
+        width: 128px;
+      }
+
+      .mat-card-actions {
+        text-align: right;
+      }
+    }
+  }
+}
