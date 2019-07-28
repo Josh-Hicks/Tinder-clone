@@ -13,9 +13,13 @@ import { HttpClientModule } from '@angular/common/http';
 import { reducers } from './reducers';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
+import { LikesComponent } from './components/likes/likes.component';
+import { UserListComponent } from './components/user-list/user-list.component';
+import { DislikesComponent } from './components/dislikes/dislikes.component';
+import { UserCardComponent } from './components/user-card/user-card.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, LikesComponent, UserListComponent, DislikesComponent, UserCardComponent],
   imports: [
     BrowserModule,
     HttpClientModule,
