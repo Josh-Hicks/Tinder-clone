@@ -17,9 +17,10 @@ import { LikesComponent } from './components/likes/likes.component';
 import { UserListComponent } from './components/user-list/user-list.component';
 import { DislikesComponent } from './components/dislikes/dislikes.component';
 import { UserCardComponent } from './components/user-card/user-card.component';
+import { GenderSelectorComponent } from './components/gender-selector/gender-selector.component';
 
 @NgModule({
-  declarations: [AppComponent, LikesComponent, UserListComponent, DislikesComponent, UserCardComponent],
+  declarations: [AppComponent, LikesComponent, UserListComponent, DislikesComponent, UserCardComponent, GenderSelectorComponent],
   imports: [
     BrowserModule,
     HttpClientModule,

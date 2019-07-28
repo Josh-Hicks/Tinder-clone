@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { User } from 'src/app/models/user';
 import { Store } from '@ngrx/store';
-import * as fromRoot from '../../reducers';
+import * as fromRoot from '../../reducers/';
 import * as userActions from '../../actions/user.actions';
 
 @Component({

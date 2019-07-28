@@ -1,0 +1,20 @@
+<mat-chip-list aria-label="Preferred Gender Selection">
+  <mat-chip
+    color="primary"
+    (click)="changeSelected('male')"
+    [selected]="currentGender === 'male'"
+    >Male</mat-chip
+  >
+  <mat-chip
+    color="primary"
+    (click)="changeSelected('female')"
+    [selected]="currentGender === 'female'"
+    >Female</mat-chip
+  >
+  <mat-chip
+    color="primary"
+    (click)="changeSelected('')"
+    [selected]="currentGender === ''"
+    >Both</mat-chip
+  >
+</mat-chip-list>

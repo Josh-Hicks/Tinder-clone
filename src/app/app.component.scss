@@ -42,5 +42,9 @@ main {
     flex-direction: column;
     justify-content: center;
     padding: 5%;
+
+    app-gender-selector {
+      margin-bottom: 2em;
+    }
   }
 }
