@@ -1,8 +1,39 @@
 main {
+  background: #222;
+
   header {
-    background-color: gray;
+    align-items: center;
+    background-color: #000;
     color: #fafafa;
+    display: flex;
+    justify-content: space-between;
     padding: 1em;
+
+    h1 {
+      color: limegreen;
+      font-weight: 400;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-evenly;
+      align-self: center;
+
+      a {
+        color: #fff;
+        font-weight: 400;
+        letter-spacing: 2px;
+        padding: 0.5em 1em;
+        text-decoration: none;
+        text-transform: uppercase;
+
+        &:hover {
+          color: limegreen;
+        }
+      }
+    }
   }
 
   section {
@@ -11,26 +42,5 @@ main {
     flex-direction: column;
     justify-content: center;
     padding: 5%;
-
-    .user-card {
-      margin-bottom: 2em;
-      max-width: 200px;
-      width: 100%;
-
-      .mat-card-content {
-        align-self: center;
-        display: flex;
-        justify-content: center;
-      }
-
-      .profile-pic {
-        height: 128px;
-        width: 128px;
-      }
-
-      .mat-card-actions {
-        text-align: right;
-      }
-    }
   }
 }
